@@ -8,7 +8,7 @@ public class task4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Число в бинарном формате: ");
         String bin = scanner.nextLine();
-        int bin = Integer.parseInt(bin, 2);
+        int bin1 = Integer.parseInt(bin, 2);
         System.out.println(bin);
     }
 }
