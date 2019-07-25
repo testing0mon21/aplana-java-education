@@ -9,7 +9,7 @@ public class task12 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите текст ");
         String text = sc.nextLine();
-        text = text.replaceAll("\\s","" );
-        System.out.println(text);
+        String textWithoutSpaces = text.replaceAll("\\s+","" );
+        System.out.println(textWithoutSpaces);
     }
 }
